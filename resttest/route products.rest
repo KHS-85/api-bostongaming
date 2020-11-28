@@ -1,0 +1,29 @@
+GET http://localhost:5017/products
+
+###
+
+GET http://localhost:5017/products/5fbe5283b751894ba01292f3
+
+###
+
+POST http://localhost:5017/products/admin
+Content-Type: application/json
+
+{
+    "overskrift": "dsfsdfsdf",
+    "beskrivelse": "sdf sdf sdf sdf d"
+}
+
+###
+
+DELETE http://localhost:5017/products/5fb63173e78d7f15ac7dce1e
+
+###
+
+PATCH http://localhost:5017/products/5fb4e9126956801058b983f2
+Content-Type: application/json
+
+{
+    "overskrift": "Intel Celeron",
+    "beskrivelse": "som hesdsdfsdflst! asdasd asdasd"
+}

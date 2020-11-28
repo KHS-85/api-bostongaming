@@ -1,0 +1,30 @@
+GET http://localhost:5017/users
+
+###
+
+GET http://localhost:5017/users/5fb66e8cda8a633620e25e9d
+
+###
+
+POST http://localhost:5017/users
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "qwerty",
+    "name": "Test Admin"
+}
+
+###
+
+DELETE http://localhost:5017/users/5fb63173e78d7f15ac7dce1e
+
+###
+
+PATCH http://localhost:5017/users/5fb4e9126956801058b983f2
+Content-Type: application/json
+
+{
+    "overskrift": "Intel Celeron",
+    "beskrivelse": "som hesdsdfsdflst! asdasd asdasd"
+}

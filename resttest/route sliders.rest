@@ -1,0 +1,28 @@
+GET http://localhost:5017/sliders
+
+###
+
+GET http://localhost:5017/sliders/5fb4ea647080252c084192ed
+
+###
+
+POST http://localhost:5017/sliders
+Content-Type: application/json
+
+{
+    "overskrift": "Test Produkt NY",
+    "beskrivelse": "som hesdsdfsdflst! asdasd asdasd"
+}
+
+###
+
+DELETE http://localhost:5017/sliders/5fb63173e78d7f15ac7dce1e
+
+###
+
+PATCH http://localhost:5017/sliders/5fb4e9126956801058b983f2
+Content-Type: application/json
+
+{
+    "overskrift": "Intel Celeron"
+}
